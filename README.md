@@ -1,4 +1,6 @@
 # Analyzing Transportation Usage Throughout Covid
+Final_Project_Processing_Big_Data.ipynb: Code for visualizations
+
 /etl_code: For my cleaning code for the MTA Ridership data, I essentially dropped every column except the first 5. This is because only the first 5 columns has data on subway and bus ridership, which are the important metrics used for my analysis. This is important, however, as the output of this code is a new dataset that only includes the columns mentioned above.
 For my cleaning code for the Fare Card history data, I similarly only kept the first 6 columns of the dataset, as these were the important metrics for my analysis. There were no null values in both of these datasets, so there was no need for me to delete any entries.
 The code can be run using spark-shell --deploy-mode client -i Clean.scala (for MTA Ridership) and spark-shell --deploy-mode client -i fare_analysis_clean.scala (for fare card history).
