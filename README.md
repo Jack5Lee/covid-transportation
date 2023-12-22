@@ -1,4 +1,6 @@
 # Analyzing Transportation Usage Throughout Covid
+Investigates the impact of the COVID-19 pandemic on MTA ridership, mainly subways and buses.
+
 Final_Project_Processing_Big_Data.ipynb: Code for visualizations
 
 /etl_code: Cleaning code for the MTA Ridership data. Dropped every column except the first 5, which has data on subway and bus ridership, which are the important metrics used for my analysis. This is important, however, as the output of this code is a new dataset that only includes the columns mentioned above.
